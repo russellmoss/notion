@@ -3,7 +3,7 @@ title: "Run Your Wedding Venue Like a High-Performing Revenue Org"
 content_type: "Article"
 theme: "RevOps"
 status: "draft"
-publication_date: ""
+publication_date: "2025-12-02T08:30:00.000-05:00"
 notion_url: "https://www.notion.so/Run-Your-Wedding-Venue-Like-a-High-Performing-Revenue-Org-2616c059767380559b1be0db11a96e68"
 ---
 

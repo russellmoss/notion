@@ -2,7 +2,7 @@
 title: "Key men in lean teams"
 content_type: "Micro-post"
 theme: "Leadership"
-status: "draft"
+status: "scheduled"
 publication_date: "2025-09-29"
 notion_url: "https://www.notion.so/Key-men-in-lean-teams-2616c059767380cfa2b0efe9d9c9981f"
 ---

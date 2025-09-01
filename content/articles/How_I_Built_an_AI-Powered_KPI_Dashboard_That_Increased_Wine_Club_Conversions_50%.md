@@ -3,7 +3,7 @@ title: "How I Built an AI-Powered KPI Dashboard That Increased Wine Club Convers
 content_type: "Article"
 theme: "RevOps"
 status: "draft"
-publication_date: ""
+publication_date: "2025-10-07T08:30:00.000-04:00"
 notion_url: "https://www.notion.so/How-I-Built-an-AI-Powered-KPI-Dashboard-That-Increased-Wine-Club-Conversions-50-2616c0597673802780f4d8bf80ffe21b"
 ---
 

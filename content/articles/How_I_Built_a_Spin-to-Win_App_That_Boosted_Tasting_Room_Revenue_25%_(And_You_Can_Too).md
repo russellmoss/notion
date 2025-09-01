@@ -3,7 +3,7 @@ title: "How I Built a Spin-to-Win App That Boosted Tasting Room Revenue 25% (And
 content_type: "Article"
 theme: "RevOps"
 status: "draft"
-publication_date: ""
+publication_date: "2025-10-21T08:30:00.000-04:00"
 notion_url: "https://www.notion.so/How-I-Built-a-Spin-to-Win-App-That-Boosted-Tasting-Room-Revenue-25-And-You-Can-Too-2616c059767380daa44fccb3dcd625e5"
 ---
 

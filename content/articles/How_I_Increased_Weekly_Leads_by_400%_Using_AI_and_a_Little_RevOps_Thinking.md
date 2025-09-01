@@ -3,7 +3,7 @@ title: "How I Increased Weekly Leads by 400% Using AI and a Little RevOps Thinki
 content_type: "Article"
 theme: "RevOps"
 status: "draft"
-publication_date: ""
+publication_date: "2025-09-09T08:30:00.000-04:00"
 notion_url: "https://www.notion.so/How-I-Increased-Weekly-Leads-by-400-Using-AI-and-a-Little-RevOps-Thinking-2616c059767380eab0d6eb98d407acf2"
 ---
 

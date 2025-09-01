@@ -14,11 +14,37 @@ EMAIL_PASSWORD = os.environ.get('EMAIL_PASSWORD')
 EMAIL_TO = 'russell@mileaestatevineyard.com'
 EMAIL_FROM = 'russell@mileaestatevineyard.com'
 
+# Format database ID with hyphens if needed
+def format_database_id(db_id):
+    """Format database ID to include hyphens"""
+    # Remove any existing hyphens
+    clean_id = db_id.replace('-', '')
+    
+    # Add hyphens in the correct positions for UUID v4
+    if len(clean_id) == 32:
+        return f"{clean_id[:8]}-{clean_id[8:12]}-{clean_id[12:16]}-{clean_id[16:20]}-{clean_id[20:]}"
+    return db_id
+
+DATABASE_ID = format_database_id(DATABASE_ID)
+print(f"Using database ID: {DATABASE_ID}")
+
 headers = {
     "Authorization": f"Bearer {NOTION_TOKEN}",
     "Content-Type": "application/json",
     "Notion-Version": "2022-06-28"
 }
+
+def test_connection():
+    """Test if we can access the database"""
+    url = f"https://api.notion.com/v1/databases/{DATABASE_ID}"
+    response = requests.get(url, headers=headers)
+    
+    if response.status_code != 200:
+        print(f"Failed to access database: {response.text}")
+        return False
+    
+    print(f"Successfully connected to database: {response.json().get('title', [{}])[0].get('plain_text', 'Untitled')}")
+    return True
 
 def clean_filename(title):
     """Clean title for use as filename"""
@@ -114,7 +140,7 @@ def blocks_to_markdown(blocks):
                 markdown.append(f"> {icon} **Note**: {text}\n")
                 
         except Exception as e:
-            print(f"Error processing block: {e}")
+            print(f"Error processing block type {block_type}: {e}")
             continue
     
     return '\n'.join(markdown)
@@ -146,6 +172,9 @@ def get_text_from_block(block_data):
 
 def get_property_value(property_data):
     """Extract value from Notion property"""
+    if not property_data:
+        return ''
+        
     prop_type = property_data['type']
     
     if prop_type == 'title':
@@ -167,6 +196,10 @@ def sync_notion_to_github():
     """Main sync function"""
     print("Starting Notion to GitHub sync...")
     
+    # Test connection first
+    if not test_connection():
+        raise Exception("Cannot connect to Notion database. Please check your token and database ID.")
+    
     # Get database items
     url = f"https://api.notion.com/v1/databases/{DATABASE_ID}/query"
     response = requests.post(url, headers=headers)
@@ -175,6 +208,7 @@ def sync_notion_to_github():
         raise Exception(f"Failed to query database: {response.text}")
     
     results = response.json()['results']
+    print(f"Found {len(results)} items in database")
     
     changes = []
     
@@ -183,16 +217,17 @@ def sync_notion_to_github():
         # Get properties
         properties = item['properties']
         
-        # Extract metadata
-        title = get_property_value(properties.get('Title', properties.get('Name', {})))
+        # Extract metadata - try different possible property names
+        title = (get_property_value(properties.get('Title', {})) or 
+                get_property_value(properties.get('Name', {})) or
+                get_property_value(properties.get('title', {})) or
+                'Untitled')
+                
         content_type = get_property_value(properties.get('Content Type', {}))
         theme = get_property_value(properties.get('Theme', {}))
         status = get_property_value(properties.get('Status', {}))
         pub_date = get_property_value(properties.get('Publication Date', {}))
         
-        if not title:
-            continue
-            
         print(f"Processing: {title}")
         
         # Get page content
@@ -259,7 +294,9 @@ notion_url: "{item['url']}"
     for item in results:
         properties = item['properties']
         table_data.append({
-            'title': get_property_value(properties.get('Title', properties.get('Name', {}))),
+            'title': (get_property_value(properties.get('Title', {})) or 
+                     get_property_value(properties.get('Name', {})) or
+                     'Untitled'),
             'content_type': get_property_value(properties.get('Content Type', {})),
             'theme': get_property_value(properties.get('Theme', {})),
             'status': get_property_value(properties.get('Status', {})),

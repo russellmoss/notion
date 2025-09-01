@@ -243,17 +243,6 @@ def sync_notion_to_github():
         page_content = get_page_content(item['id'])
         markdown_content = blocks_to_markdown(page_content)
         
-        # Create metadata
-        metadata = {
-            'title': title,
-            'content_type': content_type,
-            'theme': theme,
-            'status': status,
-            'publication_date': pub_date,
-            'notion_url': item['url'],
-            'last_edited': item['last_edited_time']
-        }
-        
         # Determine folder
         if content_type and 'article' in content_type.lower():
             folder = 'content/articles'
@@ -265,11 +254,9 @@ def sync_notion_to_github():
         # Create filename
         filename = clean_filename(title)
         
-        # Track current files
+        # Track current files (removed JSON tracking)
         md_path = f"{folder}/{filename}.md"
-        json_path = f"{folder}/{filename}.json"
         current_files.add(md_path)
-        current_files.add(json_path)
         
         # Save markdown file
         os.makedirs(folder, exist_ok=True)
@@ -300,21 +287,23 @@ notion_url: "{item['url']}"
             with open(md_path, 'w', encoding='utf-8') as f:
                 f.write(full_content)
             new_items.append(title)
-        
-        # Save metadata JSON
-        with open(json_path, 'w', encoding='utf-8') as f:
-            json.dump(metadata, f, indent=2)
     
-    # Check for deleted files - FIXED: Only check actual content folders, not root
-    for folder in ['content/articles', 'content/micro-posts']:
+    # Check for deleted files in all three folders
+    for folder in ['content/articles', 'content/micro-posts', 'content']:
         if os.path.exists(folder):
             for file in os.listdir(folder):
                 file_path = f"{folder}/{file}"
-                # Only process files, not directories
-                if os.path.isfile(file_path) and file_path not in current_files and not file.startswith('.'):
+                # Only process files (not directories), skip hidden files and non-markdown files
+                if os.path.isfile(file_path) and file.endswith('.md') and file_path not in current_files and not file.startswith('.'):
                     # File exists in repo but not in Notion anymore
                     os.remove(file_path)
-                    deleted_items.append(file.replace('.md', '').replace('.json', '').replace('_', ' '))
+                    deleted_items.append(file.replace('.md', '').replace('_', ' '))
+                # Also remove any orphaned JSON files
+                elif os.path.isfile(file_path) and file.endswith('.json') and not file.startswith('.'):
+                    # Check if corresponding MD file exists
+                    md_equivalent = file_path.replace('.json', '.md')
+                    if md_equivalent not in current_files:
+                        os.remove(file_path)
     
     # Remove duplicates from deleted items
     deleted_items = list(set(deleted_items))

@@ -2,7 +2,7 @@
 title: "What Running Weddings at a Winery Taught Me About SLAs in RevOps"
 content_type: "Article"
 theme: "RevOps"
-status: "draft"
+status: "scheduled"
 publication_date: "2025-09-23T08:30:00.000-04:00"
 notion_url: "https://www.notion.so/What-Running-Weddings-at-a-Winery-Taught-Me-About-SLAs-in-RevOps-2616c05976738019a4f2da9f23377843"
 ---

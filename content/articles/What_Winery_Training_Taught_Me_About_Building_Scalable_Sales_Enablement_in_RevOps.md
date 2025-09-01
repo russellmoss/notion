@@ -2,7 +2,7 @@
 title: "What Winery Training Taught Me About Building Scalable Sales Enablement in RevOps"
 content_type: "Article"
 theme: "RevOps"
-status: "draft"
+status: "scheduled"
 publication_date: "2025-11-18T08:30:00.000-05:00"
 notion_url: "https://www.notion.so/What-Winery-Training-Taught-Me-About-Building-Scalable-Sales-Enablement-in-RevOps-2616c0597673806d9348ceac675f97ca"
 ---

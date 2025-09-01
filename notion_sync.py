@@ -305,12 +305,13 @@ notion_url: "{item['url']}"
         with open(json_path, 'w', encoding='utf-8') as f:
             json.dump(metadata, f, indent=2)
     
-    # Check for deleted files
-    for folder in ['content/articles', 'content/micro-posts', 'content']:
+    # Check for deleted files - FIXED: Only check actual content folders, not root
+    for folder in ['content/articles', 'content/micro-posts']:
         if os.path.exists(folder):
             for file in os.listdir(folder):
                 file_path = f"{folder}/{file}"
-                if file_path not in current_files and not file.startswith('.'):
+                # Only process files, not directories
+                if os.path.isfile(file_path) and file_path not in current_files and not file.startswith('.'):
                     # File exists in repo but not in Notion anymore
                     os.remove(file_path)
                     deleted_items.append(file.replace('.md', '').replace('.json', '').replace('_', ' '))

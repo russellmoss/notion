@@ -293,22 +293,21 @@ notion_url: "{item['url']}"
         if os.path.exists(folder):
             for file in os.listdir(folder):
                 file_path = f"{folder}/{file}"
-                # Only process files (not directories), skip hidden files and non-markdown files
-                if os.path.isfile(file_path) and file.endswith('.md') and file_path not in current_files and not file.startswith('.'):
-                    # File exists in repo but not in Notion anymore
-                    os.remove(file_path)
-                    deleted_items.append(file.replace('.md', '').replace('_', ' '))
-                # Also remove any orphaned JSON files
-                elif os.path.isfile(file_path) and file.endswith('.json') and not file.startswith('.'):
-                    # Check if corresponding MD file exists
-                    md_equivalent = file_path.replace('.json', '.md')
-                    if md_equivalent not in current_files:
+                # Only process files (not directories)
+                if os.path.isfile(file_path) and not file.startswith('.'):
+                    # Delete MD files that are no longer in Notion
+                    if file.endswith('.md') and file_path not in current_files:
                         os.remove(file_path)
+                        deleted_items.append(file.replace('.md', '').replace('_', ' '))
+                    # Delete ALL JSON files in content folders (they're redundant now)
+                    elif file.endswith('.json'):
+                        os.remove(file_path)
+                        print(f"Removed redundant JSON: {file_path}")
     
     # Remove duplicates from deleted items
     deleted_items = list(set(deleted_items))
     
-    # Save root table as JSON
+    # Save root table as JSON (this one we keep!)
     table_data = []
     for item in results:
         properties = item['properties']

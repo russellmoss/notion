@@ -210,7 +210,13 @@ def sync_notion_to_github():
     results = response.json()['results']
     print(f"Found {len(results)} items in database")
     
-    changes = []
+    # Track different types of changes
+    new_items = []
+    updated_items = []
+    deleted_items = []
+    
+    # Track all current files
+    current_files = set()
     
     # Process each item
     for item in results:
@@ -225,124 +231,4 @@ def sync_notion_to_github():
                 
         content_type = get_property_value(properties.get('Content Type', {}))
         theme = get_property_value(properties.get('Theme', {}))
-        status = get_property_value(properties.get('Status', {}))
-        pub_date = get_property_value(properties.get('Publication Date', {}))
-        
-        print(f"Processing: {title}")
-        
-        # Get page content
-        page_content = get_page_content(item['id'])
-        markdown_content = blocks_to_markdown(page_content)
-        
-        # Create metadata
-        metadata = {
-            'title': title,
-            'content_type': content_type,
-            'theme': theme,
-            'status': status,
-            'publication_date': pub_date,
-            'notion_url': item['url'],
-            'last_edited': item['last_edited_time']
-        }
-        
-        # Determine folder
-        if content_type and 'article' in content_type.lower():
-            folder = 'content/articles'
-        elif content_type and 'micro' in content_type.lower():
-            folder = 'content/micro-posts'
-        else:
-            folder = 'content'
-        
-        # Create filename
-        filename = clean_filename(title)
-        
-        # Save markdown file
-        md_path = f"{folder}/{filename}.md"
-        os.makedirs(folder, exist_ok=True)
-        
-        # Add front matter
-        full_content = f"""---
-title: "{title}"
-content_type: "{content_type}"
-theme: "{theme}"
-status: "{status}"
-publication_date: "{pub_date}"
-notion_url: "{item['url']}"
----
-
-{markdown_content}
-"""
-        
-        # Check if content changed
-        old_content = ""
-        if os.path.exists(md_path):
-            with open(md_path, 'r', encoding='utf-8') as f:
-                old_content = f.read()
-        
-        if old_content != full_content:
-            with open(md_path, 'w', encoding='utf-8') as f:
-                f.write(full_content)
-            changes.append(f"Updated: {title}")
-        
-        # Save metadata JSON
-        json_path = f"{folder}/{filename}.json"
-        with open(json_path, 'w', encoding='utf-8') as f:
-            json.dump(metadata, f, indent=2)
-    
-    # Save root table
-    table_data = []
-    for item in results:
-        properties = item['properties']
-        table_data.append({
-            'title': (get_property_value(properties.get('Title', {})) or 
-                     get_property_value(properties.get('Name', {})) or
-                     'Untitled'),
-            'content_type': get_property_value(properties.get('Content Type', {})),
-            'theme': get_property_value(properties.get('Theme', {})),
-            'status': get_property_value(properties.get('Status', {})),
-            'publication_date': get_property_value(properties.get('Publication Date', {}))
-        })
-    
-    with open('content_table.json', 'w', encoding='utf-8') as f:
-        json.dump(table_data, f, indent=2)
-    
-    print(f"Sync complete! {len(changes)} items updated")
-    
-    return changes
-
-def send_email(changes):
-    """Send email notification"""
-    if not changes:
-        return
-        
-    try:
-        msg = MIMEMultipart()
-        msg['From'] = EMAIL_FROM
-        msg['To'] = EMAIL_TO
-        msg['Subject'] = f'Notion Sync Complete - {len(changes)} items updated'
-        
-        body = "The following items were updated:\n\n"
-        for change in changes:
-            body += f"• {change}\n"
-        
-        msg.attach(MIMEText(body, 'plain'))
-        
-        # Gmail SMTP
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login(EMAIL_FROM, EMAIL_PASSWORD)
-        server.send_message(msg)
-        server.quit()
-        
-        print("Email notification sent!")
-    except Exception as e:
-        print(f"Failed to send email: {e}")
-
-if __name__ == "__main__":
-    try:
-        changes = sync_notion_to_github()
-        if changes and EMAIL_PASSWORD:
-            send_email(changes)
-    except Exception as e:
-        print(f"Sync failed: {e}")
-        exit(1)
+        status = get_property_value(properties.ge

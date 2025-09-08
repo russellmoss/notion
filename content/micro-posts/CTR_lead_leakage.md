@@ -2,7 +2,7 @@
 title: "CTR lead leakage"
 content_type: "Micro-post"
 theme: "RevOps"
-status: "scheduled"
+status: "Published"
 publication_date: "2025-09-08"
 notion_url: "https://www.notion.so/CTR-lead-leakage-2616c0597673806b9cfacab8728a3b07"
 ---

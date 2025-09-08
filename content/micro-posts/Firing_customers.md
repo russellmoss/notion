@@ -2,7 +2,7 @@
 title: "Firing customers"
 content_type: "Micro-post"
 theme: "Leadership"
-status: "scheduled"
+status: "Published"
 publication_date: "2025-09-03"
 notion_url: "https://www.notion.so/Firing-customers-2626c059767380b59005e787e83cf366"
 ---

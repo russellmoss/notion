@@ -2,7 +2,7 @@
 title: "lean teams"
 content_type: "Micro-post"
 theme: "Leadership"
-status: "scheduled"
+status: "Published"
 publication_date: "2025-09-04"
 notion_url: "https://www.notion.so/lean-teams-2616c05976738028a8def17743a72118"
 ---

@@ -2,7 +2,7 @@
 title: ""The $2 Text That Beats the $10K CRM”"
 content_type: "Micro-post"
 theme: "Marketing, Sales"
-status: "scheduled"
+status: "Published"
 publication_date: "2025-09-05"
 notion_url: "https://www.notion.so/The-2-Text-That-Beats-the-10K-CRM-2626c059767380039b9ac1c82b07f574"
 ---

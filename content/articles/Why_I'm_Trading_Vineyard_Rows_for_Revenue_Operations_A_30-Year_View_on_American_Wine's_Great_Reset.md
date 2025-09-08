@@ -2,8 +2,8 @@
 title: "Why I'm Trading Vineyard Rows for Revenue Operations: A 30-Year View on American Wine's Great Reset"
 content_type: "Article"
 theme: "RevOps, Sales, Marketing"
-status: "scheduled"
-publication_date: "2025-09-17"
+status: "Published"
+publication_date: "2025-09-08"
 notion_url: "https://www.notion.so/Why-I-m-Trading-Vineyard-Rows-for-Revenue-Operations-A-30-Year-View-on-American-Wine-s-Great-Reset-2686c059767380d0ba99d6d5893d3c24"
 ---
 

@@ -1,5 +1,12 @@
 [
   {
+    "title": "Lifestyle clubs",
+    "content_type": "Article",
+    "theme": "Sales, Marketing",
+    "status": "draft",
+    "publication_date": ""
+  },
+  {
     "title": "Data capture app",
     "content_type": "Article",
     "theme": "Sales, RevOps, Marketing",

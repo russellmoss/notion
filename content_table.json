@@ -1,353 +1,24 @@
 [
   {
-    "title": "Note taking tool",
+    "title": "What Running Weddings at a Winery Taught Me About SLAs in RevOps",
     "content_type": "Article",
-    "theme": "RevOps, Leadership",
-    "status": "Not started",
-    "publication_date": ""
-  },
-  {
-    "title": "lifestyle clubs - micropost",
-    "content_type": "Micro-post",
-    "theme": "Sales, Marketing",
+    "theme": "RevOps",
     "status": "scheduled",
-    "publication_date": "2025-09-30"
+    "publication_date": "2025-09-23T08:30:00.000-04:00"
   },
   {
-    "title": "Lifestyle clubs",
-    "content_type": "Article",
-    "theme": "Sales, Marketing",
+    "title": "Micro-post template",
+    "content_type": "Micro-post",
+    "theme": "",
     "status": "draft",
     "publication_date": ""
   },
   {
-    "title": "Data capture app",
+    "title": "How I Built an AI-Powered KPI Dashboard That Increased Wine Club Conversions 50%",
     "content_type": "Article",
-    "theme": "Sales, RevOps, Marketing",
-    "status": "Not started",
-    "publication_date": "2026-03-10"
-  },
-  {
-    "title": "The Economy of Vibes",
-    "content_type": "Micro-post",
-    "theme": "Leadership",
-    "status": "scheduled",
-    "publication_date": "2025-09-17"
-  },
-  {
-    "title": "The Anti-AI Crowd Is Lying to You About LinkedIn Content",
-    "content_type": "Article",
-    "theme": "Marketing",
-    "status": "draft",
-    "publication_date": "2026-02-26"
-  },
-  {
-    "title": "American Wineries Need to GTM or GTFO",
-    "content_type": "Article",
-    "theme": "Sales, RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-09-10"
-  },
-  {
-    "title": "Why I'm Trading Vineyard Rows for Revenue Operations: A 30-Year View on American Wine's Great Reset",
-    "content_type": "Article",
-    "theme": "RevOps, Sales, Marketing",
-    "status": "Published",
-    "publication_date": "2025-09-08"
-  },
-  {
-    "title": "How We Built a Zero-Budget CRM That Transformed Our Wedding Business (And Why PerfectVenue's API Limitations Made It Better)",
-    "content_type": "Article",
-    "theme": "Sales, Marketing, RevOps",
-    "status": "draft",
-    "publication_date": "2026-02-11"
-  },
-  {
-    "title": "Aligning wedding capacity and marketing spend",
-    "content_type": "Article",
-    "theme": "Marketing, Sales, RevOps",
-    "status": "draft",
-    "publication_date": "2026-01-21"
-  },
-  {
-    "title": "I Built an SEO System That Turns Excel Into 52 Blog Posts",
-    "content_type": "Article",
-    "theme": "Marketing",
-    "status": "draft",
-    "publication_date": "2026-01-06"
-  },
-  {
-    "title": "RevOps Isn\u2019t Dashboards\u2014It\u2019s Data Discipline",
-    "content_type": "Micro-post",
-    "theme": "RevOps",
-    "status": "Published",
-    "publication_date": "2025-09-05"
-  },
-  {
-    "title": "The Hidden Data Quality Crisis",
-    "content_type": "Article",
-    "theme": "Sales, RevOps",
-    "status": "draft",
-    "publication_date": "2026-01-13"
-  },
-  {
-    "title": "girl in a coffee shop ",
-    "content_type": "Idea",
-    "theme": "RevOps",
-    "status": "idea",
-    "publication_date": ""
-  },
-  {
-    "title": "The Biggest Threat to East Coast Wine ",
-    "content_type": "Article",
-    "theme": "Sales, Marketing",
-    "status": "scheduled",
-    "publication_date": "2025-09-30"
-  },
-  {
-    "title": "Biggest threat to East Coast Wine",
-    "content_type": "Idea",
-    "theme": "Marketing, Sales",
-    "status": "idea",
-    "publication_date": ""
-  },
-  {
-    "title": "The RevOps Revolution Is Here",
-    "content_type": "Micro-post",
     "theme": "RevOps",
     "status": "scheduled",
-    "publication_date": "2025-11-19"
-  },
-  {
-    "title": "From Grapes to GTM",
-    "content_type": "Micro-post",
-    "theme": "RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-11-18"
-  },
-  {
-    "title": "Competitions Work (If Done Right)",
-    "content_type": "Micro-post",
-    "theme": "Sales, RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-11-11"
-  },
-  {
-    "title": "15% Margin of Error Is Good Enough",
-    "content_type": "Micro-post",
-    "theme": "RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-11-07"
-  },
-  {
-    "title": "Every Business Is Actually the Same",
-    "content_type": "Micro-post",
-    "theme": "RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-11-05"
-  },
-  {
-    "title": "My ENET \u2192 OLS \u2192 KPI Method",
-    "content_type": "Micro-post",
-    "theme": "Sales, RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-11-04"
-  },
-  {
-    "title": "Hospitality \u2260 No Sales",
-    "content_type": "Micro-post",
-    "theme": "Sales, Leadership",
-    "status": "scheduled",
-    "publication_date": "2025-10-29"
-  },
-  {
-    "title": "Free Tastings = Qualified Pipeline",
-    "content_type": "Micro-post",
-    "theme": "Sales, Marketing, RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-10-24"
-  },
-  {
-    "title": "Your Best People Remember Names",
-    "content_type": "Micro-post",
-    "theme": "Sales, Marketing",
-    "status": "scheduled",
-    "publication_date": "2025-10-22"
-  },
-  {
-    "title": "Sticker Shock is Self Inflicted",
-    "content_type": "Micro-post",
-    "theme": "Sales, Marketing",
-    "status": "scheduled",
-    "publication_date": "2025-10-21"
-  },
-  {
-    "title": "The Pledge That Changed Everything",
-    "content_type": "Micro-post",
-    "theme": "Sales, Leadership",
-    "status": "scheduled",
-    "publication_date": "2025-10-17"
-  },
-  {
-    "title": "Bhutan Taught Me RevOps",
-    "content_type": "Micro-post",
-    "theme": "RevOps, Leadership",
-    "status": "scheduled",
-    "publication_date": "2025-10-15"
-  },
-  {
-    "title": "From Professor to Revenue Leader",
-    "content_type": "Micro-post",
-    "theme": "Leadership, RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-10-14"
-  },
-  {
-    "title": "Micro-learning > Macro learning ",
-    "content_type": "Micro-post",
-    "theme": "Leadership, Sales",
-    "status": "scheduled",
-    "publication_date": "2025-10-10"
-  },
-  {
-    "title": "The Power of Public Numbers",
-    "content_type": "Micro-post",
-    "theme": "Sales, Leadership",
-    "status": "scheduled",
-    "publication_date": "2025-10-08"
-  },
-  {
-    "title": "Rain Kills Revenue",
-    "content_type": "Micro-post",
-    "theme": "Sales, RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-10-07"
-  },
-  {
-    "title": "Why I Built My Own CRM",
-    "content_type": "Micro-post",
-    "theme": "RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-10-03"
-  },
-  {
-    "title": "The 100-Hour Problem Nobody Saw",
-    "content_type": "Micro-post",
-    "theme": "RevOps, Sales, Marketing",
-    "status": "scheduled",
-    "publication_date": "2025-09-26"
-  },
-  {
-    "title": "Your Pipeline Ratio Is Your Reality",
-    "content_type": "Micro-post",
-    "theme": "RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-09-24"
-  },
-  {
-    "title": "The Bottle Conversion Lie",
-    "content_type": "Micro-post",
-    "theme": "RevOps, Sales",
-    "status": "scheduled",
-    "publication_date": "2025-09-23"
-  },
-  {
-    "title": "You Can't Manage What You Don't Know",
-    "content_type": "Micro-post",
-    "theme": "Sales",
-    "status": "scheduled",
-    "publication_date": "2025-09-19"
-  },
-  {
-    "title": "Good sales vs. Great sales",
-    "content_type": "Micro-post",
-    "theme": "Sales",
-    "status": "scheduled",
-    "publication_date": "2025-09-16"
-  },
-  {
-    "title": "Statistical Fairness > Arbitrary Rankings",
-    "content_type": "Micro-post",
-    "theme": "Sales",
-    "status": "scheduled",
-    "publication_date": "2025-09-09"
-  },
-  {
-    "title": "\"The $2 Text That Beats the $10K CRM\u201d",
-    "content_type": "Micro-post",
-    "theme": "Marketing, Sales",
-    "status": "Published",
-    "publication_date": "2025-09-05"
-  },
-  {
-    "title": "Firing customers",
-    "content_type": "Micro-post",
-    "theme": "Leadership",
-    "status": "Published",
-    "publication_date": "2025-09-03"
-  },
-  {
-    "title": "Small automation - bit impact",
-    "content_type": "Micro-post",
-    "theme": "Sales",
-    "status": "scheduled",
-    "publication_date": "2025-10-06"
-  },
-  {
-    "title": "brand vs. direct response",
-    "content_type": "Micro-post",
-    "theme": "Marketing, Sales",
-    "status": "scheduled",
-    "publication_date": "2025-10-02"
-  },
-  {
-    "title": "Key men in lean teams",
-    "content_type": "Micro-post",
-    "theme": "Leadership",
-    "status": "scheduled",
-    "publication_date": "2025-09-29"
-  },
-  {
-    "title": "Overcoming objections",
-    "content_type": "Micro-post",
-    "theme": "Sales",
-    "status": "scheduled",
-    "publication_date": "2025-09-25"
-  },
-  {
-    "title": "Bad KPi\u2019s",
-    "content_type": "Micro-post",
-    "theme": "RevOps, Sales",
-    "status": "scheduled",
-    "publication_date": "2025-09-22"
-  },
-  {
-    "title": "Wedding Pro: good for reviews, bad for sales",
-    "content_type": "Micro-post",
-    "theme": "RevOps, Marketing",
-    "status": "scheduled",
-    "publication_date": "2025-09-18"
-  },
-  {
-    "title": "Day off automation",
-    "content_type": "Micro-post",
-    "theme": "Leadership, RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-09-15"
-  },
-  {
-    "title": "Sales without being sales-y",
-    "content_type": "Micro-post",
-    "theme": "Sales",
-    "status": "scheduled",
-    "publication_date": "2025-09-12"
-  },
-  {
-    "title": "CTR lead leakage",
-    "content_type": "Micro-post",
-    "theme": "RevOps",
-    "status": "Published",
-    "publication_date": "2025-09-08"
+    "publication_date": "2025-10-07T08:30:00.000-04:00"
   },
   {
     "title": "lean teams",
@@ -364,53 +35,18 @@
     "publication_date": "2025-09-01"
   },
   {
-    "title": "How I Increased Weekly Leads by 400% Using AI and a Little RevOps Thinking",
-    "content_type": "Article",
-    "theme": "RevOps",
+    "title": "Small automation - bit impact",
+    "content_type": "Micro-post",
+    "theme": "Sales",
     "status": "scheduled",
-    "publication_date": "2025-09-09T08:30:00.000-04:00"
+    "publication_date": "2025-10-06"
   },
   {
-    "title": "What Winery Training Taught Me About Building Scalable Sales Enablement in RevOps",
-    "content_type": "Article",
-    "theme": "RevOps",
+    "title": "Overcoming objections",
+    "content_type": "Micro-post",
+    "theme": "Sales",
     "status": "scheduled",
-    "publication_date": "2025-11-18T08:30:00.000-05:00"
-  },
-  {
-    "title": "What Running Weddings at a Winery Taught Me About SLAs in RevOps",
-    "content_type": "Article",
-    "theme": "RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-09-23T08:30:00.000-04:00"
-  },
-  {
-    "title": "How I Built an AI-Powered KPI Dashboard That Increased Wine Club Conversions 50%",
-    "content_type": "Article",
-    "theme": "RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-10-07T08:30:00.000-04:00"
-  },
-  {
-    "title": "How I Built a Spin-to-Win App That Boosted Tasting Room Revenue 25% (And You Can Too)",
-    "content_type": "Article",
-    "theme": "RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-10-21T08:30:00.000-04:00"
-  },
-  {
-    "title": "The 500% Google Review Boost That Taught Me Anyone Can Build Software: A Winery GM's Guide to AI-First Development",
-    "content_type": "Article",
-    "theme": "RevOps",
-    "status": "draft",
-    "publication_date": "2025-12-16T08:30:00.000-05:00"
-  },
-  {
-    "title": "From Sushi to a 5-Star Flywheel: How I Built an AI-First Review Engine (That Actually Moved the Needle)",
-    "content_type": "Article",
-    "theme": "RevOps",
-    "status": "scheduled",
-    "publication_date": "2025-11-04T08:30:00.000-05:00"
+    "publication_date": "2025-09-25"
   },
   {
     "title": "Run Your Wedding Venue Like a High-Performing Revenue Org",
@@ -420,17 +56,381 @@
     "publication_date": "2025-12-02T08:30:00.000-05:00"
   },
   {
-    "title": "Micro-post template",
+    "title": "brand vs. direct response",
     "content_type": "Micro-post",
-    "theme": "",
-    "status": "draft",
-    "publication_date": ""
+    "theme": "Marketing, Sales",
+    "status": "scheduled",
+    "publication_date": "2025-10-02"
+  },
+  {
+    "title": "Day off automation",
+    "content_type": "Micro-post",
+    "theme": "Leadership, RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-09-15"
   },
   {
     "title": "Article Template",
     "content_type": "Article",
     "theme": "",
     "status": "draft",
+    "publication_date": ""
+  },
+  {
+    "title": "Bad KPi\u2019s",
+    "content_type": "Micro-post",
+    "theme": "RevOps, Sales",
+    "status": "scheduled",
+    "publication_date": "2025-09-22"
+  },
+  {
+    "title": "CTR lead leakage",
+    "content_type": "Micro-post",
+    "theme": "RevOps",
+    "status": "Published",
+    "publication_date": "2025-09-08"
+  },
+  {
+    "title": "What Winery Training Taught Me About Building Scalable Sales Enablement in RevOps",
+    "content_type": "Article",
+    "theme": "RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-11-18T08:30:00.000-05:00"
+  },
+  {
+    "title": "Wedding Pro: good for reviews, bad for sales",
+    "content_type": "Micro-post",
+    "theme": "RevOps, Marketing",
+    "status": "scheduled",
+    "publication_date": "2025-09-18"
+  },
+  {
+    "title": "From Sushi to a 5-Star Flywheel: How I Built an AI-First Review Engine (That Actually Moved the Needle)",
+    "content_type": "Article",
+    "theme": "RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-11-04T08:30:00.000-05:00"
+  },
+  {
+    "title": "Key men in lean teams",
+    "content_type": "Micro-post",
+    "theme": "Leadership",
+    "status": "scheduled",
+    "publication_date": "2025-09-29"
+  },
+  {
+    "title": "How I Built a Spin-to-Win App That Boosted Tasting Room Revenue 25% (And You Can Too)",
+    "content_type": "Article",
+    "theme": "RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-10-21T08:30:00.000-04:00"
+  },
+  {
+    "title": "Sales without being sales-y",
+    "content_type": "Micro-post",
+    "theme": "Sales",
+    "status": "scheduled",
+    "publication_date": "2025-09-12"
+  },
+  {
+    "title": "How I Increased Weekly Leads by 400% Using AI and a Little RevOps Thinking",
+    "content_type": "Article",
+    "theme": "RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-09-09T08:30:00.000-04:00"
+  },
+  {
+    "title": "The 500% Google Review Boost That Taught Me Anyone Can Build Software: A Winery GM's Guide to AI-First Development",
+    "content_type": "Article",
+    "theme": "RevOps",
+    "status": "draft",
+    "publication_date": "2025-12-16T08:30:00.000-05:00"
+  },
+  {
+    "title": "\"The $2 Text That Beats the $10K CRM\u201d",
+    "content_type": "Micro-post",
+    "theme": "Marketing, Sales",
+    "status": "Published",
+    "publication_date": "2025-09-05"
+  },
+  {
+    "title": "Rain Kills Revenue",
+    "content_type": "Micro-post",
+    "theme": "Sales, RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-10-07"
+  },
+  {
+    "title": "Your Best People Remember Names",
+    "content_type": "Micro-post",
+    "theme": "Sales, Marketing",
+    "status": "scheduled",
+    "publication_date": "2025-10-22"
+  },
+  {
+    "title": "Micro-learning > Macro learning ",
+    "content_type": "Micro-post",
+    "theme": "Leadership, Sales",
+    "status": "scheduled",
+    "publication_date": "2025-10-10"
+  },
+  {
+    "title": "Good sales vs. Great sales",
+    "content_type": "Micro-post",
+    "theme": "Sales",
+    "status": "scheduled",
+    "publication_date": "2025-09-16"
+  },
+  {
+    "title": "From Grapes to GTM",
+    "content_type": "Micro-post",
+    "theme": "RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-11-18"
+  },
+  {
+    "title": "The Power of Public Numbers",
+    "content_type": "Micro-post",
+    "theme": "Sales, Leadership",
+    "status": "scheduled",
+    "publication_date": "2025-10-08"
+  },
+  {
+    "title": "The RevOps Revolution Is Here",
+    "content_type": "Micro-post",
+    "theme": "RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-11-19"
+  },
+  {
+    "title": "Sticker Shock is Self Inflicted",
+    "content_type": "Micro-post",
+    "theme": "Sales, Marketing",
+    "status": "scheduled",
+    "publication_date": "2025-10-21"
+  },
+  {
+    "title": "15% Margin of Error Is Good Enough",
+    "content_type": "Micro-post",
+    "theme": "RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-11-07"
+  },
+  {
+    "title": "You Can't Manage What You Don't Know",
+    "content_type": "Micro-post",
+    "theme": "Sales",
+    "status": "scheduled",
+    "publication_date": "2025-09-19"
+  },
+  {
+    "title": "Hospitality \u2260 No Sales",
+    "content_type": "Micro-post",
+    "theme": "Sales, Leadership",
+    "status": "scheduled",
+    "publication_date": "2025-10-29"
+  },
+  {
+    "title": "The 100-Hour Problem Nobody Saw",
+    "content_type": "Micro-post",
+    "theme": "RevOps, Sales, Marketing",
+    "status": "scheduled",
+    "publication_date": "2025-09-26"
+  },
+  {
+    "title": "Every Business Is Actually the Same",
+    "content_type": "Micro-post",
+    "theme": "RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-11-05"
+  },
+  {
+    "title": "My ENET \u2192 OLS \u2192 KPI Method",
+    "content_type": "Micro-post",
+    "theme": "Sales, RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-11-04"
+  },
+  {
+    "title": "Firing customers",
+    "content_type": "Micro-post",
+    "theme": "Leadership",
+    "status": "Published",
+    "publication_date": "2025-09-03"
+  },
+  {
+    "title": "Your Pipeline Ratio Is Your Reality",
+    "content_type": "Micro-post",
+    "theme": "RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-09-24"
+  },
+  {
+    "title": "Why I Built My Own CRM",
+    "content_type": "Micro-post",
+    "theme": "RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-10-03"
+  },
+  {
+    "title": "Free Tastings = Qualified Pipeline",
+    "content_type": "Micro-post",
+    "theme": "Sales, Marketing, RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-10-24"
+  },
+  {
+    "title": "The Bottle Conversion Lie",
+    "content_type": "Micro-post",
+    "theme": "RevOps, Sales",
+    "status": "scheduled",
+    "publication_date": "2025-09-23"
+  },
+  {
+    "title": "The Pledge That Changed Everything",
+    "content_type": "Micro-post",
+    "theme": "Sales, Leadership",
+    "status": "scheduled",
+    "publication_date": "2025-10-17"
+  },
+  {
+    "title": "Competitions Work (If Done Right)",
+    "content_type": "Micro-post",
+    "theme": "Sales, RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-11-11"
+  },
+  {
+    "title": "From Professor to Revenue Leader",
+    "content_type": "Micro-post",
+    "theme": "Leadership, RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-10-14"
+  },
+  {
+    "title": "Statistical Fairness > Arbitrary Rankings",
+    "content_type": "Micro-post",
+    "theme": "Sales",
+    "status": "scheduled",
+    "publication_date": "2025-09-09"
+  },
+  {
+    "title": "Bhutan Taught Me RevOps",
+    "content_type": "Micro-post",
+    "theme": "RevOps, Leadership",
+    "status": "scheduled",
+    "publication_date": "2025-10-15"
+  },
+  {
+    "title": "Biggest threat to East Coast Wine",
+    "content_type": "Idea",
+    "theme": "Marketing, Sales",
+    "status": "idea",
+    "publication_date": ""
+  },
+  {
+    "title": "The Biggest Threat to East Coast Wine ",
+    "content_type": "Article",
+    "theme": "Sales, Marketing",
+    "status": "scheduled",
+    "publication_date": "2025-09-30"
+  },
+  {
+    "title": "The Hidden Data Quality Crisis",
+    "content_type": "Article",
+    "theme": "Sales, RevOps",
+    "status": "draft",
+    "publication_date": "2026-01-13"
+  },
+  {
+    "title": "girl in a coffee shop ",
+    "content_type": "Idea",
+    "theme": "RevOps",
+    "status": "idea",
+    "publication_date": ""
+  },
+  {
+    "title": "RevOps Isn\u2019t Dashboards\u2014It\u2019s Data Discipline",
+    "content_type": "Micro-post",
+    "theme": "RevOps",
+    "status": "Published",
+    "publication_date": "2025-09-05"
+  },
+  {
+    "title": "I Built an SEO System That Turns Excel Into 52 Blog Posts",
+    "content_type": "Article",
+    "theme": "Marketing",
+    "status": "draft",
+    "publication_date": "2026-01-06"
+  },
+  {
+    "title": "Aligning wedding capacity and marketing spend",
+    "content_type": "Article",
+    "theme": "Marketing, Sales, RevOps",
+    "status": "draft",
+    "publication_date": "2026-01-21"
+  },
+  {
+    "title": "How We Built a Zero-Budget CRM That Transformed Our Wedding Business (And Why PerfectVenue's API Limitations Made It Better)",
+    "content_type": "Article",
+    "theme": "Sales, Marketing, RevOps",
+    "status": "draft",
+    "publication_date": "2026-02-11"
+  },
+  {
+    "title": "Why I'm Trading Vineyard Rows for Revenue Operations: A 30-Year View on American Wine's Great Reset",
+    "content_type": "Article",
+    "theme": "RevOps, Sales, Marketing",
+    "status": "Published",
+    "publication_date": "2025-09-08"
+  },
+  {
+    "title": "American Wineries Need to GTM or GTFO",
+    "content_type": "Article",
+    "theme": "Sales, RevOps",
+    "status": "scheduled",
+    "publication_date": "2025-09-10"
+  },
+  {
+    "title": "The Economy of Vibes",
+    "content_type": "Micro-post",
+    "theme": "Leadership",
+    "status": "scheduled",
+    "publication_date": "2025-09-17"
+  },
+  {
+    "title": "The Anti-AI Crowd Is Lying to You About LinkedIn Content",
+    "content_type": "Article",
+    "theme": "Marketing",
+    "status": "draft",
+    "publication_date": "2026-02-26"
+  },
+  {
+    "title": "Data capture app",
+    "content_type": "Article",
+    "theme": "Sales, RevOps, Marketing",
+    "status": "Not started",
+    "publication_date": "2026-03-10"
+  },
+  {
+    "title": "Lifestyle clubs",
+    "content_type": "Article",
+    "theme": "Sales, Marketing",
+    "status": "draft",
+    "publication_date": ""
+  },
+  {
+    "title": "lifestyle clubs - micropost",
+    "content_type": "Micro-post",
+    "theme": "Sales, Marketing",
+    "status": "scheduled",
+    "publication_date": "2025-09-30"
+  },
+  {
+    "title": "Note taking tool",
+    "content_type": "Article",
+    "theme": "RevOps, Leadership",
+    "status": "Not started",
     "publication_date": ""
   }
 ]
